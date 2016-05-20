@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/sfondo">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="117dp"
+        android:background="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:foregroundGravity="center_vertical" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/wedding"
+        android:background="@drawable/addobbiweedding"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logo"
+        android:clickable="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/articolinatalizi"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/articolinatalizi"
+        android:layout_below="@+id/wedding"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/bomboniere"
+        android:background="@drawable/bomboniere"
+        android:layout_below="@+id/articolinatalizi"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/candele"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/candele"
+        android:layout_below="@+id/bomboniere"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/confetti"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/confetti"
+        android:layout_below="@+id/candele"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/confezionamento"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/confezionamento"
+        android:layout_below="@+id/confetti"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/contenitori"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/contenitori"
+        android:layout_below="@+id/confezionamento"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/faidate"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/faidate"
+        android:layout_below="@+id/contenitori"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/fioriartificiali"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fioriartificiali"
+        android:layout_below="@+id/faidate"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/fiorisecchi"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fiorisecchi"
+        android:layout_below="@+id/fioriartificiali"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/fruttaartificiale"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fruttaartificiale"
+        android:layout_below="@+id/fiorisecchi"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/hobbistica"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/hobbistica"
+        android:layout_below="@+id/fruttaartificiale"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/primavera"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/primavera"
+        android:layout_below="@+id/hobbistica"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/regalo"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/regalo"
+        android:layout_below="@+id/primavera"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/sanvalentino"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/sanvalentino"
+        android:layout_below="@+id/regalo"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+    </ScrollView>
